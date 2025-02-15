@@ -28,7 +28,7 @@ This project focuses on the integration of polymer support within the DeepChem e
 
 ### Key PR Contributions
 
-*Note- These following PRs were raised on [DeepChem](https://github.com/deepchem/deepchem) github repository.*
+*Note- Following PRs were raised on [DeepChem](https://github.com/deepchem/deepchem) github repository.*
 
 - **#3984**: Base polymer featurizer and weighted directed graph data classes with documentation and tests.
 - **#3992**: Utility functions for generating graph-based featurizers.
