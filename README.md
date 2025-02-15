@@ -1,6 +1,6 @@
 # Polymer DeepChem Integration Project
 
-This project focuses on the integration of polymer support within the DeepChem ecosystem. The integration process began with the Google Summer of Code (GSoC) 2024 project and has been extended into a workshop paper. The project includes various PR contributions and an extended pipeline implementation to support polymer featurization and generation.
+This project focuses on the integration of polymer material support within the DeepChem ecosystem. The integration process began with the Google Summer of Code (GSoC) 2024 project and has been extended into a conference paper. The project includes various PR contributions and an extended pipeline implementation to support polymer featurization and generation.
 
 ## Contributions and PRs
 
@@ -20,6 +20,8 @@ This project focuses on the integration of polymer support within the DeepChem e
 - A separate tutorial was added explaining the weighted directed graph featurization and its real-world implications for polymer research.
 - A PSMILES tutorial was developed, explaining their formation and tokenization.
 - Tutorials were created for the application of PolyBERT for similarity prediction of polymer molecules.
+- The conversion mechanisms between various polymer representations were showcased in a corresponding tutorial.
+- The model classes for generation of polymers using deepchem are implemented in another tutorial (with open-sourcing the model checkpoints for generator models).
 
 ### Extended Work and Research
 - A set of generators were developed to align with DeepChem discriminators for generating valid candidates with desired properties.
@@ -30,7 +32,6 @@ This project focuses on the integration of polymer support within the DeepChem e
 
 *Note- Following PRs were raised on [DeepChem](https://github.com/deepchem/deepchem) github repository.*
 
-- **#3984**: Base polymer featurizer and weighted directed graph data classes with documentation and tests.
 - **#3992**: Utility functions for generating graph-based featurizers.
 - **#4016**: Base polymer featurizer with additional unit test cases.
 - **#4017**: Weighted directed data classes with added documentation.
@@ -47,7 +48,6 @@ This project focuses on the integration of polymer support within the DeepChem e
 - **#4289**: Tutorial explaining the conversion between PSMILES and weighted directed graphs.
 
 ## Research Paper
-- The project resulted in a research paper to be presented at the AI2ASE workshop at the AAAI Annual Conference. The paper can be accessed [here](https://arxiv.org/html/2412.08658v1).
+- The project resulted in a research paper named "Open-source Polymer Generative Pipeline" to be presented at the AI2ASE workshop at the AAAI Annual Conference on 3rd March, 2025. The paper can be accessed [here](https://arxiv.org/html/2412.08658v1).
 
 - Demo GitHub Repository: [Polymer Pipelines Demo](https://github.com/TRY-ER/polymer_pipelines.git)
-
